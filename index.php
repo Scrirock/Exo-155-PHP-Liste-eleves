@@ -86,8 +86,7 @@ $students = [
 
 $i = 0;
 foreach ($students as $student){
-    echo $i." => ".$student["nom"]." ".$student["prenom"];
-    echo " - <a href='student.php?index=".$i."'>Précision</a><br><br><br><br>";
+    echo "<p>".$i." => ".$student["nom"]." ".$student["prenom"]." - <a href='student.php?index=".$i."'>Précision</a></p>";
     $i++;
 }
 

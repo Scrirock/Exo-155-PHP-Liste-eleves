@@ -94,14 +94,14 @@ if (isset($_GET["index"])){
         if ($key === "passion") {
             echo "passion: ";
             foreach ($value as $passion) echo $passion . ", ";
-            echo "<br><br><br>";
+
         }
         else echo $key.": ".$value."<br>";
     }
 }
 
 ?>
-    <a href="index.php">Retour à la liste</a>
+    <p><a href="index.php">Retour à la liste</a></p>
 
 </body>
 </html>
