@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-size: 2rem;
+    margin: 5rem;
+}
+
+a{
+    background-color: #372dde;
+    color: whitesmoke;
+    text-decoration-line: none;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+a:hover{
+    background-color: #5a51ff;
+    box-shadow: 5px 5px 5px #1e1c5d;
+}
